@@ -1,0 +1,21 @@
+CLARITA - instalar como app (Android, iPhone/iPad, Windows y Mac)
+
+Esta carpeta es una app web instalable (PWA). Es la misma app para todos los sistemas.
+
+PASO 1. Publícala en internet (gratis)
+  Sube TODA esta carpeta a un hosting estático con https, por ejemplo Netlify (arrastrar la carpeta
+  en app.netlify.com/drop), Cloudflare Pages o GitHub Pages. Obtendrás una dirección como https://clarita.netlify.app
+
+PASO 2. Instálala desde esa dirección
+  Android (Chrome): menú ⋮ > Instalar aplicación (o Agregar a pantalla principal).
+  iPhone / iPad (Safari): Compartir > Añadir a pantalla de inicio.
+  Windows (Edge o Chrome): icono de instalar en la barra de direcciones, o menú > Aplicaciones > Instalar.
+  Mac: Chrome/Edge: icono de instalar; Safari (macOS Sonoma o más nuevo): Archivo > Añadir al Dock.
+
+Funciona sin conexión después de la primera carga. Los datos se guardan en el dispositivo; usa
+Ajustes > Exportar CSV como respaldo.
+
+OPCIONAL. Archivos nativos (APK, MSIX, proyecto de Xcode)
+  Con la dirección ya publicada, entra a https://www.pwabuilder.com, pega la dirección y elige
+  "Package for stores": Android (incluye un APK para instalar directo), Windows (MSIX) o iOS
+  (proyecto de Xcode; requiere una Mac con Xcode y una cuenta de Apple Developer de pago).
